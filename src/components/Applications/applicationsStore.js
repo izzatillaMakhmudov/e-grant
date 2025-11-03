@@ -12,6 +12,7 @@ export const useApplicationStore = defineStore("applicationStore", () => {
       RouteCount: 41,
       Status: "Rad etilgan",
       refreshData: "23.05.2025",
+      rejectionReason: "",
     },
     {
       id: 2,
@@ -20,8 +21,9 @@ export const useApplicationStore = defineStore("applicationStore", () => {
       STIR: 201230002,
       DemandCount: 120,
       RouteCount: 41,
-      Status: "Rad etilgan",
+      Status: "",
       refreshData: "23.05.2025",
+      rejectionReason: "",
     },
     {
       id: 3,
@@ -30,8 +32,9 @@ export const useApplicationStore = defineStore("applicationStore", () => {
       STIR: 201230002,
       DemandCount: 120,
       RouteCount: 41,
-      Status: "Rad etilgan",
+      Status: "",
       refreshData: "23.05.2025",
+      rejectionReason: "",
     },
     {
       id: 4,
@@ -42,6 +45,7 @@ export const useApplicationStore = defineStore("applicationStore", () => {
       RouteCount: 41,
       Status: "Rad etilgan",
       refreshData: "23.05.2025",
+      rejectionReason: "",
     },
     {
       id: 5,
@@ -50,8 +54,9 @@ export const useApplicationStore = defineStore("applicationStore", () => {
       STIR: 201230002,
       DemandCount: 120,
       RouteCount: 41,
-      Status: "Rad etilgan",
+      Status: "Tasdiqlangan",
       refreshData: "23.05.2025",
+      rejectionReason: "",
     },
     {
       id: 6,
@@ -62,6 +67,7 @@ export const useApplicationStore = defineStore("applicationStore", () => {
       RouteCount: 41,
       Status: "Rad etilgan",
       refreshData: "23.05.2025",
+      rejectionReason: "",
     },
     {
       id: 7,
@@ -70,8 +76,9 @@ export const useApplicationStore = defineStore("applicationStore", () => {
       STIR: 201230002,
       DemandCount: 120,
       RouteCount: 41,
-      Status: "Rad etilgan",
+      Status: "Tasdiqlangan",
       refreshData: "23.05.2025",
+      rejectionReason: "",
     },
     {
       id: 8,
@@ -82,6 +89,7 @@ export const useApplicationStore = defineStore("applicationStore", () => {
       RouteCount: 41,
       Status: "Rad etilgan",
       refreshData: "23.05.2025",
+      rejectionReason: "",
     },
     {
       id: 9,
@@ -92,6 +100,7 @@ export const useApplicationStore = defineStore("applicationStore", () => {
       RouteCount: 41,
       Status: "Rad etilgan",
       refreshData: "23.05.2025",
+      rejectionReason: "",
     },
     {
       id: 10,
@@ -100,8 +109,9 @@ export const useApplicationStore = defineStore("applicationStore", () => {
       STIR: 201230002,
       DemandCount: 120,
       RouteCount: 41,
-      Status: "Rad etilgan",
+      Status: "",
       refreshData: "23.05.2025",
+      rejectionReason: "",
     },
     {
       id: 11,
@@ -110,8 +120,9 @@ export const useApplicationStore = defineStore("applicationStore", () => {
       STIR: 201230002,
       DemandCount: 120,
       RouteCount: 41,
-      Status: "Rad etilgan",
+      Status: "",
       refreshData: "23.05.2025",
+      rejectionReason: "",
     },
     {
       id: 12,
@@ -122,6 +133,7 @@ export const useApplicationStore = defineStore("applicationStore", () => {
       RouteCount: 41,
       Status: "Rad etilgan",
       refreshData: "23.05.2025",
+      rejectionReason: "",
     },
     {
       id: 13,
@@ -130,8 +142,9 @@ export const useApplicationStore = defineStore("applicationStore", () => {
       STIR: 201230002,
       DemandCount: 120,
       RouteCount: 41,
-      Status: "Rad etilgan",
+      Status: "Tasdiqlangan",
       refreshData: "23.05.2025",
+      rejectionReason: "",
     },
     {
       id: 14,
@@ -142,16 +155,7 @@ export const useApplicationStore = defineStore("applicationStore", () => {
       RouteCount: 41,
       Status: "Rad etilgan",
       refreshData: "23.05.2025",
-    },
-    {
-      id: 15,
-      OrgName:
-        "Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti",
-      STIR: 201230002,
-      DemandCount: 120,
-      RouteCount: 41,
-      Status: "Rad etilgan",
-      refreshData: "23.05.2025",
+      rejectionReason: "",
     },
     {
       id: 16,
@@ -160,8 +164,9 @@ export const useApplicationStore = defineStore("applicationStore", () => {
       STIR: 201230002,
       DemandCount: 120,
       RouteCount: 41,
-      Status: "Rad etilgan",
+      Status: "Tasdiqlangan",
       refreshData: "23.05.2025",
+      rejectionReason: "",
     },
     {
       id: 17,
@@ -172,6 +177,7 @@ export const useApplicationStore = defineStore("applicationStore", () => {
       RouteCount: 41,
       Status: "Rad etilgan",
       refreshData: "23.05.2025",
+      rejectionReason: "",
     },
     {
       id: 18,
@@ -182,6 +188,7 @@ export const useApplicationStore = defineStore("applicationStore", () => {
       RouteCount: 41,
       Status: "Rad etilgan",
       refreshData: "23.05.2025",
+      rejectionReason: "",
     },
     {
       id: 19,
@@ -190,8 +197,9 @@ export const useApplicationStore = defineStore("applicationStore", () => {
       STIR: 201230002,
       DemandCount: 120,
       RouteCount: 41,
-      Status: "Rad etilgan",
+      Status: "",
       refreshData: "23.05.2025",
+      rejectionReason: "",
     },
     {
       id: 20,
@@ -200,8 +208,9 @@ export const useApplicationStore = defineStore("applicationStore", () => {
       STIR: 201230002,
       DemandCount: 120,
       RouteCount: 41,
-      Status: "Rad etilgan",
+      Status: "",
       refreshData: "23.05.2025",
+      rejectionReason: "",
     },
     {
       id: 21,
@@ -212,6 +221,7 @@ export const useApplicationStore = defineStore("applicationStore", () => {
       RouteCount: 41,
       Status: "Rad etilgan",
       refreshData: "23.05.2025",
+      rejectionReason: "",
     },
     {
       id: 22,
@@ -220,8 +230,9 @@ export const useApplicationStore = defineStore("applicationStore", () => {
       STIR: 201230002,
       DemandCount: 120,
       RouteCount: 41,
-      Status: "Rad etilgan",
+      Status: "Tasdiqlangan",
       refreshData: "23.05.2025",
+      rejectionReason: "",
     },
     {
       id: 23,
@@ -232,6 +243,7 @@ export const useApplicationStore = defineStore("applicationStore", () => {
       RouteCount: 41,
       Status: "Rad etilgan",
       refreshData: "23.05.2025",
+      rejectionReason: "",
     },
     {
       id: 24,
@@ -240,8 +252,9 @@ export const useApplicationStore = defineStore("applicationStore", () => {
       STIR: 201230002,
       DemandCount: 120,
       RouteCount: 41,
-      Status: "Rad etilgan",
+      Status: "Tasdiqlangan",
       refreshData: "23.05.2025",
+      rejectionReason: "",
     },
     {
       id: 25,
@@ -252,9 +265,10 @@ export const useApplicationStore = defineStore("applicationStore", () => {
       RouteCount: 41,
       Status: "Rad etilgan",
       refreshData: "23.05.2025",
+      rejectionReason: "",
     },
     {
-      id: 1,
+      id: 26,
       OrgName:
         "Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti",
       STIR: 201230002,
@@ -262,809 +276,32 @@ export const useApplicationStore = defineStore("applicationStore", () => {
       RouteCount: 41,
       Status: "Rad etilgan",
       refreshData: "23.05.2025",
+      rejectionReason: "",
     },
     {
-      id: 2,
+      id: 27,
       OrgName:
         "Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti",
       STIR: 201230002,
       DemandCount: 120,
       RouteCount: 41,
-      Status: "Rad etilgan",
-      refreshData: "23.05.2025",
-    },
-    {
-      id: 3,
-      OrgName:
-        "Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti",
-      STIR: 201230002,
-      DemandCount: 120,
-      RouteCount: 41,
-      Status: "Rad etilgan",
-      refreshData: "23.05.2025",
-    },
-    {
-      id: 4,
-      OrgName:
-        "Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti",
-      STIR: 201230002,
-      DemandCount: 120,
-      RouteCount: 41,
-      Status: "Rad etilgan",
-      refreshData: "23.05.2025",
-    },
-    {
-      id: 5,
-      OrgName:
-        "Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti",
-      STIR: 201230002,
-      DemandCount: 120,
-      RouteCount: 41,
-      Status: "Rad etilgan",
-      refreshData: "23.05.2025",
-    },
-    {
-      id: 6,
-      OrgName:
-        "Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti",
-      STIR: 201230002,
-      DemandCount: 120,
-      RouteCount: 41,
-      Status: "Rad etilgan",
-      refreshData: "23.05.2025",
-    },
-    {
-      id: 7,
-      OrgName:
-        "Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti",
-      STIR: 201230002,
-      DemandCount: 120,
-      RouteCount: 41,
-      Status: "Rad etilgan",
-      refreshData: "23.05.2025",
-    },
-    {
-      id: 8,
-      OrgName:
-        "Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti",
-      STIR: 201230002,
-      DemandCount: 120,
-      RouteCount: 41,
-      Status: "Rad etilgan",
-      refreshData: "23.05.2025",
-    },
-    {
-      id: 9,
-      OrgName:
-        "Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti",
-      STIR: 201230002,
-      DemandCount: 120,
-      RouteCount: 41,
-      Status: "Rad etilgan",
-      refreshData: "23.05.2025",
-    },
-    {
-      id: 10,
-      OrgName:
-        "Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti",
-      STIR: 201230002,
-      DemandCount: 120,
-      RouteCount: 41,
-      Status: "Rad etilgan",
-      refreshData: "23.05.2025",
-    },
-    {
-      id: 11,
-      OrgName:
-        "Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti",
-      STIR: 201230002,
-      DemandCount: 120,
-      RouteCount: 41,
-      Status: "Rad etilgan",
-      refreshData: "23.05.2025",
-    },
-    {
-      id: 12,
-      OrgName:
-        "Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti",
-      STIR: 201230002,
-      DemandCount: 120,
-      RouteCount: 41,
-      Status: "Rad etilgan",
-      refreshData: "23.05.2025",
-    },
-    {
-      id: 13,
-      OrgName:
-        "Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti",
-      STIR: 201230002,
-      DemandCount: 120,
-      RouteCount: 41,
-      Status: "Rad etilgan",
-      refreshData: "23.05.2025",
-    },
-    {
-      id: 14,
-      OrgName:
-        "Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti",
-      STIR: 201230002,
-      DemandCount: 120,
-      RouteCount: 41,
-      Status: "Rad etilgan",
-      refreshData: "23.05.2025",
-    },
-    {
-      id: 15,
-      OrgName:
-        "Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti",
-      STIR: 201230002,
-      DemandCount: 120,
-      RouteCount: 41,
-      Status: "Rad etilgan",
-      refreshData: "23.05.2025",
-    },
-    {
-      id: 16,
-      OrgName:
-        "Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti",
-      STIR: 201230002,
-      DemandCount: 120,
-      RouteCount: 41,
-      Status: "Rad etilgan",
-      refreshData: "23.05.2025",
-    },
-    {
-      id: 17,
-      OrgName:
-        "Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti",
-      STIR: 201230002,
-      DemandCount: 120,
-      RouteCount: 41,
-      Status: "Rad etilgan",
-      refreshData: "23.05.2025",
-    },
-    {
-      id: 18,
-      OrgName:
-        "Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti",
-      STIR: 310005256,
-      DemandCount: 120,
-      RouteCount: 41,
-      Status: "Rad etilgan",
-      refreshData: "23.05.2025",
-    },
-    {
-      id: 19,
-      OrgName:
-        "Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti",
-      STIR: 201230002,
-      DemandCount: 120,
-      RouteCount: 41,
-      Status: "Rad etilgan",
-      refreshData: "23.05.2025",
-    },
-    {
-      id: 20,
-      OrgName:
-        "Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti",
-      STIR: 201230002,
-      DemandCount: 120,
-      RouteCount: 41,
-      Status: "Rad etilgan",
-      refreshData: "23.05.2025",
-    },
-    {
-      id: 21,
-      OrgName:
-        "Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti",
-      STIR: 201230002,
-      DemandCount: 120,
-      RouteCount: 41,
-      Status: "Rad etilgan",
-      refreshData: "23.05.2025",
-    },
-    {
-      id: 22,
-      OrgName:
-        "Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti",
-      STIR: 201230002,
-      DemandCount: 120,
-      RouteCount: 41,
-      Status: "Rad etilgan",
-      refreshData: "23.05.2025",
-    },
-    {
-      id: 23,
-      OrgName:
-        "WIUT",
-      STIR: 201230002,
-      DemandCount: 120,
-      RouteCount: 41,
-      Status: "Rad etilgan",
-      refreshData: "23.05.2025",
-    },
-    {
-      id: 24,
-      OrgName:
-        "Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti",
-      STIR: 201230002,
-      DemandCount: 120,
-      RouteCount: 41,
-      Status: "Rad etilgan",
-      refreshData: "23.05.2025",
-    },
-    {
-      id: 25,
-      OrgName:
-        "Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti",
-      STIR: 201230002,
-      DemandCount: 120,
-      RouteCount: 41,
-      Status: "Rad etilgan",
-      refreshData: "23.05.2025",
-    },
-    {
-      id: 1,
-      OrgName:
-        "Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti",
-      STIR: 201230002,
-      DemandCount: 120,
-      RouteCount: 41,
-      Status: "Rad etilgan",
-      refreshData: "23.05.2025",
-    },
-    {
-      id: 2,
-      OrgName:
-        "Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti",
-      STIR: 201230002,
-      DemandCount: 120,
-      RouteCount: 41,
-      Status: "Rad etilgan",
-      refreshData: "23.05.2025",
-    },
-    {
-      id: 3,
-      OrgName:
-        "Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti",
-      STIR: 201230002,
-      DemandCount: 120,
-      RouteCount: 41,
-      Status: "Rad etilgan",
-      refreshData: "23.05.2025",
-    },
-    {
-      id: 4,
-      OrgName:
-        "Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti",
-      STIR: 201230002,
-      DemandCount: 120,
-      RouteCount: 41,
-      Status: "Rad etilgan",
-      refreshData: "23.05.2025",
-    },
-    {
-      id: 5,
-      OrgName:
-        "Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti",
-      STIR: 201230002,
-      DemandCount: 120,
-      RouteCount: 41,
-      Status: "Rad etilgan",
-      refreshData: "23.05.2025",
-    },
-    {
-      id: 6,
-      OrgName:
-        "Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti",
-      STIR: 201230002,
-      DemandCount: 120,
-      RouteCount: 41,
-      Status: "Rad etilgan",
-      refreshData: "23.05.2025",
-    },
-    {
-      id: 7,
-      OrgName:
-        "Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti",
-      STIR: 201230002,
-      DemandCount: 120,
-      RouteCount: 41,
-      Status: "Rad etilgan",
-      refreshData: "23.05.2025",
-    },
-    {
-      id: 8,
-      OrgName:
-        "Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti",
-      STIR: 201230002,
-      DemandCount: 120,
-      RouteCount: 41,
-      Status: "Rad etilgan",
-      refreshData: "23.05.2025",
-    },
-    {
-      id: 9,
-      OrgName:
-        "Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti",
-      STIR: 201230002,
-      DemandCount: 120,
-      RouteCount: 41,
-      Status: "Rad etilgan",
-      refreshData: "23.05.2025",
-    },
-    {
-      id: 10,
-      OrgName:
-        "Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti",
-      STIR: 201230002,
-      DemandCount: 120,
-      RouteCount: 41,
-      Status: "Rad etilgan",
-      refreshData: "23.05.2025",
-    },
-    {
-      id: 11,
-      OrgName:
-        "Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti",
-      STIR: 201230002,
-      DemandCount: 120,
-      RouteCount: 41,
-      Status: "Rad etilgan",
-      refreshData: "23.05.2025",
-    },
-    {
-      id: 12,
-      OrgName:
-        "Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti",
-      STIR: 201230002,
-      DemandCount: 120,
-      RouteCount: 41,
-      Status: "Rad etilgan",
-      refreshData: "23.05.2025",
-    },
-    {
-      id: 13,
-      OrgName:
-        "Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti",
-      STIR: 201230002,
-      DemandCount: 120,
-      RouteCount: 41,
-      Status: "Rad etilgan",
-      refreshData: "23.05.2025",
-    },
-    {
-      id: 14,
-      OrgName:
-        "Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti",
-      STIR: 201230002,
-      DemandCount: 120,
-      RouteCount: 41,
-      Status: "Rad etilgan",
-      refreshData: "23.05.2025",
-    },
-    {
-      id: 15,
-      OrgName:
-        "Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti",
-      STIR: 201230002,
-      DemandCount: 120,
-      RouteCount: 41,
-      Status: "Rad etilgan",
-      refreshData: "23.05.2025",
-    },
-    {
-      id: 16,
-      OrgName:
-        "Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti",
-      STIR: 201230002,
-      DemandCount: 120,
-      RouteCount: 41,
-      Status: "Rad etilgan",
-      refreshData: "23.05.2025",
-    },
-    {
-      id: 17,
-      OrgName:
-        "Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti",
-      STIR: 201230002,
-      DemandCount: 120,
-      RouteCount: 41,
-      Status: "Rad etilgan",
-      refreshData: "23.05.2025",
-    },
-    {
-      id: 18,
-      OrgName:
-        "Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti",
-      STIR: 201230002,
-      DemandCount: 120,
-      RouteCount: 41,
-      Status: "Rad etilgan",
-      refreshData: "23.05.2025",
-    },
-    {
-      id: 19,
-      OrgName:
-        "Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti",
-      STIR: 201230002,
-      DemandCount: 120,
-      RouteCount: 41,
-      Status: "Rad etilgan",
-      refreshData: "23.05.2025",
-    },
-    {
-      id: 20,
-      OrgName:
-        "Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti",
-      STIR: 201230002,
-      DemandCount: 120,
-      RouteCount: 41,
-      Status: "Rad etilgan",
-      refreshData: "23.05.2025",
-    },
-    {
-      id: 21,
-      OrgName:
-        "Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti",
-      STIR: 201230002,
-      DemandCount: 120,
-      RouteCount: 41,
-      Status: "Rad etilgan",
-      refreshData: "23.05.2025",
-    },
-    {
-      id: 22,
-      OrgName:
-        "Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti",
-      STIR: 201230002,
-      DemandCount: 120,
-      RouteCount: 41,
-      Status: "Rad etilgan",
-      refreshData: "23.05.2025",
-    },
-    {
-      id: 23,
-      OrgName:
-        "Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti",
-      STIR: 201230002,
-      DemandCount: 120,
-      RouteCount: 41,
-      Status: "Rad etilgan",
-      refreshData: "23.05.2025",
-    },
-    {
-      id: 24,
-      OrgName:
-        "Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti",
-      STIR: 201230002,
-      DemandCount: 120,
-      RouteCount: 41,
-      Status: "Rad etilgan",
-      refreshData: "23.05.2025",
-    },
-    {
-      id: 25,
-      OrgName:
-        "Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti",
-      STIR: 201230002,
-      DemandCount: 120,
-      RouteCount: 41,
-      Status: "Rad etilgan",
-      refreshData: "23.05.2025",
-    },
-    {
-      id: 1,
-      OrgName:
-        "Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti",
-      STIR: 201230002,
-      DemandCount: 120,
-      RouteCount: 41,
-      Status: "Rad etilgan",
-      refreshData: "23.05.2025",
-    },
-    {
-      id: 2,
-      OrgName:
-        "Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti",
-      STIR: 201230002,
-      DemandCount: 120,
-      RouteCount: 41,
-      Status: "Rad etilgan",
-      refreshData: "23.05.2025",
-    },
-    {
-      id: 3,
-      OrgName:
-        "Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti",
-      STIR: 201230002,
-      DemandCount: 120,
-      RouteCount: 41,
-      Status: "Rad etilgan",
-      refreshData: "23.05.2025",
-    },
-    {
-      id: 4,
-      OrgName:
-        "Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti",
-      STIR: 201230002,
-      DemandCount: 120,
-      RouteCount: 41,
-      Status: "Rad etilgan",
-      refreshData: "23.05.2025",
-    },
-    {
-      id: 5,
-      OrgName:
-        "Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti",
-      STIR: 201230002,
-      DemandCount: 120,
-      RouteCount: 41,
-      Status: "Rad etilgan",
-      refreshData: "23.05.2025",
-    },
-    {
-      id: 6,
-      OrgName:
-        "Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti",
-      STIR: 201230002,
-      DemandCount: 120,
-      RouteCount: 41,
-      Status: "Rad etilgan",
-      refreshData: "23.05.2025",
-    },
-    {
-      id: 7,
-      OrgName:
-        "Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti",
-      STIR: 201230002,
-      DemandCount: 120,
-      RouteCount: 41,
-      Status: "Rad etilgan",
-      refreshData: "23.05.2025",
-    },
-    {
-      id: 8,
-      OrgName:
-        "Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti",
-      STIR: 201230002,
-      DemandCount: 120,
-      RouteCount: 41,
-      Status: "Rad etilgan",
-      refreshData: "23.05.2025",
-    },
-    {
-      id: 9,
-      OrgName:
-        "Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti",
-      STIR: 201230002,
-      DemandCount: 120,
-      RouteCount: 41,
-      Status: "Rad etilgan",
-      refreshData: "23.05.2025",
-    },
-    {
-      id: 10,
-      OrgName:
-        "Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti",
-      STIR: 201230002,
-      DemandCount: 120,
-      RouteCount: 41,
-      Status: "Rad etilgan",
-      refreshData: "23.05.2025",
-    },
-    {
-      id: 11,
-      OrgName:
-        "Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti",
-      STIR: 201230002,
-      DemandCount: 120,
-      RouteCount: 41,
-      Status: "Rad etilgan",
-      refreshData: "23.05.2025",
-    },
-    {
-      id: 12,
-      OrgName:
-        "Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti",
-      STIR: 201230002,
-      DemandCount: 120,
-      RouteCount: 41,
-      Status: "Rad etilgan",
-      refreshData: "23.05.2025",
-    },
-    {
-      id: 13,
-      OrgName:
-        "Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti",
-      STIR: 201230002,
-      DemandCount: 120,
-      RouteCount: 41,
-      Status: "Rad etilgan",
-      refreshData: "23.05.2025",
-    },
-    {
-      id: 14,
-      OrgName:
-        "Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti",
-      STIR: 201230002,
-      DemandCount: 120,
-      RouteCount: 41,
-      Status: "Rad etilgan",
-      refreshData: "23.05.2025",
-    },
-    {
-      id: 15,
-      OrgName:
-        "Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti",
-      STIR: 201230002,
-      DemandCount: 120,
-      RouteCount: 41,
-      Status: "Rad etilgan",
-      refreshData: "23.05.2025",
-    },
-    {
-      id: 16,
-      OrgName:
-        "Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti",
-      STIR: 201230002,
-      DemandCount: 120,
-      RouteCount: 41,
-      Status: "Rad etilgan",
-      refreshData: "23.05.2025",
-    },
-    {
-      id: 17,
-      OrgName:
-        "Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti",
-      STIR: 201230002,
-      DemandCount: 120,
-      RouteCount: 41,
-      Status: "Rad etilgan",
-      refreshData: "23.05.2025",
-    },
-    {
-      id: 18,
-      OrgName:
-        "Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti",
-      STIR: 310005256,
-      DemandCount: 120,
-      RouteCount: 41,
-      Status: "Rad etilgan",
-      refreshData: "23.05.2025",
-    },
-    {
-      id: 19,
-      OrgName:
-        "Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti",
-      STIR: 201230002,
-      DemandCount: 120,
-      RouteCount: 41,
-      Status: "Rad etilgan",
-      refreshData: "23.05.2025",
-    },
-    {
-      id: 20,
-      OrgName:
-        "Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti",
-      STIR: 201230002,
-      DemandCount: 120,
-      RouteCount: 41,
-      Status: "Rad etilgan",
-      refreshData: "23.05.2025",
-    },
-    {
-      id: 21,
-      OrgName:
-        "Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti",
-      STIR: 201230002,
-      DemandCount: 120,
-      RouteCount: 41,
-      Status: "Rad etilgan",
-      refreshData: "23.05.2025",
-    },
-    {
-      id: 22,
-      OrgName:
-        "Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti",
-      STIR: 201230002,
-      DemandCount: 120,
-      RouteCount: 41,
-      Status: "Rad etilgan",
-      refreshData: "23.05.2025",
-    },
-    {
-      id: 23,
-      OrgName:
-        "WIUT",
-      STIR: 201230002,
-      DemandCount: 120,
-      RouteCount: 41,
-      Status: "Rad etilgan",
-      refreshData: "23.05.2025",
-    },
-    {
-      id: 24,
-      OrgName:
-        "Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti",
-      STIR: 201230002,
-      DemandCount: 120,
-      RouteCount: 41,
-      Status: "Rad etilgan",
-      refreshData: "23.05.2025",
-    },
-    {
-      id: 25,
-      OrgName:
-        "Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti",
-      STIR: 201230002,
-      DemandCount: 120,
-      RouteCount: 41,
-      Status: "Rad etilgan",
-      refreshData: "23.05.2025",
-    },
-    {
-      id: 1,
-      OrgName:
-        "Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti",
-      STIR: 201230002,
-      DemandCount: 120,
-      RouteCount: 41,
-      Status: "Rad etilgan",
-      refreshData: "23.05.2025",
-    },
-    {
-      id: 2,
-      OrgName:
-        "Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti",
-      STIR: 201230002,
-      DemandCount: 120,
-      RouteCount: 41,
-      Status: "Rad etilgan",
+      Status: "",
       refreshData: "23.05.2025",
+      rejectionReason: "",
     },
     {
-      id: 3,
+      id: 28,
       OrgName:
         "Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti",
       STIR: 201230002,
       DemandCount: 120,
       RouteCount: 41,
-      Status: "Rad etilgan",
-      refreshData: "23.05.2025",
-    },
-    {
-      id: 4,
-      OrgName:
-        "Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti",
-      STIR: 201230002,
-      DemandCount: 120,
-      RouteCount: 41,
-      Status: "Rad etilgan",
-      refreshData: "23.05.2025",
-    },
-    {
-      id: 5,
-      OrgName:
-        "Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti",
-      STIR: 201230002,
-      DemandCount: 120,
-      RouteCount: 41,
-      Status: "Rad etilgan",
-      refreshData: "23.05.2025",
-    },
-    {
-      id: 6,
-      OrgName:
-        "Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti",
-      STIR: 201230002,
-      DemandCount: 120,
-      RouteCount: 41,
-      Status: "Rad etilgan",
+      Status: "",
       refreshData: "23.05.2025",
+      rejectionReason: "",
     },
     {
-      id: 7,
+      id: 29,
       OrgName:
         "Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti",
       STIR: 201230002,
@@ -1072,19 +309,21 @@ export const useApplicationStore = defineStore("applicationStore", () => {
       RouteCount: 41,
       Status: "Rad etilgan",
       refreshData: "23.05.2025",
+      rejectionReason: "",
     },
     {
-      id: 8,
+      id: 30,
       OrgName:
         "Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti",
       STIR: 201230002,
       DemandCount: 120,
       RouteCount: 41,
-      Status: "Rad etilgan",
+      Status: "Tasdiqlangan",
       refreshData: "23.05.2025",
+      rejectionReason: "",
     },
     {
-      id: 9,
+      id: 31,
       OrgName:
         "Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti",
       STIR: 201230002,
@@ -1092,19 +331,21 @@ export const useApplicationStore = defineStore("applicationStore", () => {
       RouteCount: 41,
       Status: "Rad etilgan",
       refreshData: "23.05.2025",
+      rejectionReason: "",
     },
     {
-      id: 10,
+      id: 32,
       OrgName:
         "Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti",
       STIR: 201230002,
       DemandCount: 120,
       RouteCount: 41,
-      Status: "Rad etilgan",
+      Status: "Tasdiqlangan",
       refreshData: "23.05.2025",
+      rejectionReason: "",
     },
     {
-      id: 11,
+      id: 33,
       OrgName:
         "Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti",
       STIR: 201230002,
@@ -1112,9 +353,10 @@ export const useApplicationStore = defineStore("applicationStore", () => {
       RouteCount: 41,
       Status: "Rad etilgan",
       refreshData: "23.05.2025",
+      rejectionReason: "",
     },
     {
-      id: 12,
+      id: 34,
       OrgName:
         "Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti",
       STIR: 201230002,
@@ -1122,29 +364,32 @@ export const useApplicationStore = defineStore("applicationStore", () => {
       RouteCount: 41,
       Status: "Rad etilgan",
       refreshData: "23.05.2025",
+      rejectionReason: "",
     },
     {
-      id: 13,
+      id: 35,
       OrgName:
         "Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti",
       STIR: 201230002,
       DemandCount: 120,
       RouteCount: 41,
-      Status: "Rad etilgan",
+      Status: "",
       refreshData: "23.05.2025",
+      rejectionReason: "",
     },
     {
-      id: 14,
+      id: 36,
       OrgName:
         "Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti",
       STIR: 201230002,
       DemandCount: 120,
       RouteCount: 41,
-      Status: "Rad etilgan",
+      Status: "",
       refreshData: "23.05.2025",
+      rejectionReason: "",
     },
     {
-      id: 15,
+      id: 37,
       OrgName:
         "Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti",
       STIR: 201230002,
@@ -1152,19 +397,21 @@ export const useApplicationStore = defineStore("applicationStore", () => {
       RouteCount: 41,
       Status: "Rad etilgan",
       refreshData: "23.05.2025",
+      rejectionReason: "",
     },
     {
-      id: 16,
+      id: 38,
       OrgName:
         "Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti",
       STIR: 201230002,
       DemandCount: 120,
       RouteCount: 41,
-      Status: "Rad etilgan",
+      Status: "Tasdiqlangan",
       refreshData: "23.05.2025",
+      rejectionReason: "",
     },
     {
-      id: 17,
+      id: 39,
       OrgName:
         "Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti",
       STIR: 201230002,
@@ -1172,19 +419,21 @@ export const useApplicationStore = defineStore("applicationStore", () => {
       RouteCount: 41,
       Status: "Rad etilgan",
       refreshData: "23.05.2025",
+      rejectionReason: "",
     },
     {
-      id: 18,
+      id: 40,
       OrgName:
         "Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti",
       STIR: 201230002,
       DemandCount: 120,
       RouteCount: 41,
-      Status: "Rad etilgan",
+      Status: "Tasdiqlangan",
       refreshData: "23.05.2025",
+      rejectionReason: "",
     },
     {
-      id: 19,
+      id: 41,
       OrgName:
         "Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti",
       STIR: 201230002,
@@ -1192,9 +441,10 @@ export const useApplicationStore = defineStore("applicationStore", () => {
       RouteCount: 41,
       Status: "Rad etilgan",
       refreshData: "23.05.2025",
+      rejectionReason: "",
     },
     {
-      id: 20,
+      id: 42,
       OrgName:
         "Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti",
       STIR: 201230002,
@@ -1202,29 +452,32 @@ export const useApplicationStore = defineStore("applicationStore", () => {
       RouteCount: 41,
       Status: "Rad etilgan",
       refreshData: "23.05.2025",
+      rejectionReason: "",
     },
     {
-      id: 21,
+      id: 43,
       OrgName:
         "Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti",
       STIR: 201230002,
       DemandCount: 120,
       RouteCount: 41,
-      Status: "Rad etilgan",
+      Status: "",
       refreshData: "23.05.2025",
+      rejectionReason: "",
     },
     {
-      id: 22,
+      id: 44,
       OrgName:
         "Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti",
       STIR: 201230002,
       DemandCount: 120,
       RouteCount: 41,
-      Status: "Rad etilgan",
+      Status: "",
       refreshData: "23.05.2025",
+      rejectionReason: "",
     },
     {
-      id: 23,
+      id: 45,
       OrgName:
         "Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti",
       STIR: 201230002,
@@ -1232,19 +485,21 @@ export const useApplicationStore = defineStore("applicationStore", () => {
       RouteCount: 41,
       Status: "Rad etilgan",
       refreshData: "23.05.2025",
+      rejectionReason: "",
     },
     {
-      id: 24,
+      id: 46,
       OrgName:
         "Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti",
       STIR: 201230002,
       DemandCount: 120,
       RouteCount: 41,
-      Status: "Rad etilgan",
+      Status: "Tasdiqlangan",
       refreshData: "23.05.2025",
+      rejectionReason: "",
     },
     {
-      id: 25,
+      id: 47,
       OrgName:
         "Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti",
       STIR: 201230002,
@@ -1252,19 +507,21 @@ export const useApplicationStore = defineStore("applicationStore", () => {
       RouteCount: 41,
       Status: "Rad etilgan",
       refreshData: "23.05.2025",
+      rejectionReason: "",
     },
     {
-      id: 1,
+      id: 48,
       OrgName:
         "Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti",
       STIR: 201230002,
       DemandCount: 120,
       RouteCount: 41,
-      Status: "Rad etilgan",
+      Status: "Tasdiqlangan",
       refreshData: "23.05.2025",
+      rejectionReason: "",
     },
     {
-      id: 2,
+      id: 49,
       OrgName:
         "Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti",
       STIR: 201230002,
@@ -1272,9 +529,10 @@ export const useApplicationStore = defineStore("applicationStore", () => {
       RouteCount: 41,
       Status: "Rad etilgan",
       refreshData: "23.05.2025",
+      rejectionReason: "",
     },
     {
-      id: 3,
+      id: 50,
       OrgName:
         "Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti",
       STIR: 201230002,
@@ -1282,29 +540,32 @@ export const useApplicationStore = defineStore("applicationStore", () => {
       RouteCount: 41,
       Status: "Rad etilgan",
       refreshData: "23.05.2025",
+      rejectionReason: "",
     },
     {
-      id: 4,
+      id: 51,
       OrgName:
         "Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti",
       STIR: 201230002,
       DemandCount: 120,
       RouteCount: 41,
-      Status: "Rad etilgan",
+      Status: "",
       refreshData: "23.05.2025",
+      rejectionReason: "",
     },
     {
-      id: 5,
+      id: 52,
       OrgName:
         "Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti",
       STIR: 201230002,
       DemandCount: 120,
       RouteCount: 41,
-      Status: "Rad etilgan",
+      Status: "",
       refreshData: "23.05.2025",
+      rejectionReason: "",
     },
     {
-      id: 6,
+      id: 53,
       OrgName:
         "Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti",
       STIR: 201230002,
@@ -1312,19 +573,21 @@ export const useApplicationStore = defineStore("applicationStore", () => {
       RouteCount: 41,
       Status: "Rad etilgan",
       refreshData: "23.05.2025",
+      rejectionReason: "",
     },
     {
-      id: 7,
+      id: 54,
       OrgName:
         "Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti",
       STIR: 201230002,
       DemandCount: 120,
       RouteCount: 41,
-      Status: "Rad etilgan",
+      Status: "Tasdiqlangan",
       refreshData: "23.05.2025",
+      rejectionReason: "",
     },
     {
-      id: 8,
+      id: 55,
       OrgName:
         "Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti",
       STIR: 201230002,
@@ -1332,19 +595,21 @@ export const useApplicationStore = defineStore("applicationStore", () => {
       RouteCount: 41,
       Status: "Rad etilgan",
       refreshData: "23.05.2025",
+      rejectionReason: "",
     },
     {
-      id: 9,
+      id: 56,
       OrgName:
         "Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti",
       STIR: 201230002,
       DemandCount: 120,
       RouteCount: 41,
-      Status: "Rad etilgan",
+      Status: "Tasdiqlangan",
       refreshData: "23.05.2025",
+      rejectionReason: "",
     },
     {
-      id: 10,
+      id: 57,
       OrgName:
         "Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti",
       STIR: 201230002,
@@ -1352,9 +617,10 @@ export const useApplicationStore = defineStore("applicationStore", () => {
       RouteCount: 41,
       Status: "Rad etilgan",
       refreshData: "23.05.2025",
+      rejectionReason: "",
     },
     {
-      id: 11,
+      id: 58,
       OrgName:
         "Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti",
       STIR: 201230002,
@@ -1362,29 +628,32 @@ export const useApplicationStore = defineStore("applicationStore", () => {
       RouteCount: 41,
       Status: "Rad etilgan",
       refreshData: "23.05.2025",
+      rejectionReason: "",
     },
     {
-      id: 12,
+      id: 59,
       OrgName:
         "Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti",
       STIR: 201230002,
       DemandCount: 120,
       RouteCount: 41,
-      Status: "Rad etilgan",
+      Status: "",
       refreshData: "23.05.2025",
+      rejectionReason: "",
     },
     {
-      id: 13,
+      id: 60,
       OrgName:
         "Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti",
       STIR: 201230002,
       DemandCount: 120,
       RouteCount: 41,
-      Status: "Rad etilgan",
+      Status: "",
       refreshData: "23.05.2025",
+      rejectionReason: "",
     },
     {
-      id: 14,
+      id: 61,
       OrgName:
         "Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti",
       STIR: 201230002,
@@ -1392,19 +661,21 @@ export const useApplicationStore = defineStore("applicationStore", () => {
       RouteCount: 41,
       Status: "Rad etilgan",
       refreshData: "23.05.2025",
+      rejectionReason: "",
     },
     {
-      id: 15,
+      id: 62,
       OrgName:
         "Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti",
       STIR: 201230002,
       DemandCount: 120,
       RouteCount: 41,
-      Status: "Rad etilgan",
+      Status: "Tasdiqlangan",
       refreshData: "23.05.2025",
+      rejectionReason: "",
     },
     {
-      id: 16,
+      id: 63,
       OrgName:
         "Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti",
       STIR: 201230002,
@@ -1412,29 +683,21 @@ export const useApplicationStore = defineStore("applicationStore", () => {
       RouteCount: 41,
       Status: "Rad etilgan",
       refreshData: "23.05.2025",
+      rejectionReason: "",
     },
     {
-      id: 17,
+      id: 64,
       OrgName:
         "Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti",
       STIR: 201230002,
-      DemandCount: 120,
-      RouteCount: 41,
-      Status: "Rad etilgan",
-      refreshData: "23.05.2025",
-    },
-    {
-      id: 18,
-      OrgName:
-        "Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti",
-      STIR: 310005256,
       DemandCount: 120,
       RouteCount: 41,
-      Status: "Rad etilgan",
+      Status: "Tasdiqlangan",
       refreshData: "23.05.2025",
+      rejectionReason: "",
     },
     {
-      id: 19,
+      id: 65,
       OrgName:
         "Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti",
       STIR: 201230002,
@@ -1442,9 +705,10 @@ export const useApplicationStore = defineStore("applicationStore", () => {
       RouteCount: 41,
       Status: "Rad etilgan",
       refreshData: "23.05.2025",
+      rejectionReason: "",
     },
     {
-      id: 20,
+      id: 66,
       OrgName:
         "Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti",
       STIR: 201230002,
@@ -1452,39 +716,32 @@ export const useApplicationStore = defineStore("applicationStore", () => {
       RouteCount: 41,
       Status: "Rad etilgan",
       refreshData: "23.05.2025",
+      rejectionReason: "",
     },
     {
-      id: 21,
+      id: 67,
       OrgName:
         "Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti",
       STIR: 201230002,
       DemandCount: 120,
       RouteCount: 41,
-      Status: "Rad etilgan",
+      Status: "",
       refreshData: "23.05.2025",
+      rejectionReason: "",
     },
     {
-      id: 22,
+      id: 68,
       OrgName:
         "Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti",
-      STIR: 201230002,
-      DemandCount: 120,
-      RouteCount: 41,
-      Status: "Rad etilgan",
-      refreshData: "23.05.2025",
-    },
-    {
-      id: 23,
-      OrgName:
-        "WIUT",
       STIR: 201230002,
       DemandCount: 120,
       RouteCount: 41,
-      Status: "Rad etilgan",
+      Status: "",
       refreshData: "23.05.2025",
+      rejectionReason: "",
     },
     {
-      id: 24,
+      id: 69,
       OrgName:
         "Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti",
       STIR: 201230002,
@@ -1492,17 +749,20 @@ export const useApplicationStore = defineStore("applicationStore", () => {
       RouteCount: 41,
       Status: "Rad etilgan",
       refreshData: "23.05.2025",
+      rejectionReason: "",
     },
     {
-      id: 25,
+      id: 70,
       OrgName:
         "Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti",
       STIR: 201230002,
       DemandCount: 120,
       RouteCount: 41,
-      Status: "Rad etilgan",
+      Status: "Tasdiqlangan",
       refreshData: "23.05.2025",
+      rejectionReason: "",
     },
+    
   ]);
 
   const searchQuery = ref("");
@@ -1536,6 +796,11 @@ export const useApplicationStore = defineStore("applicationStore", () => {
     currentPage.value = 1;
   };
 
+  const changeStatus = (id, status) => {
+    const app = allData.value.find((a) => a.id === id);
+    if (app) app.Status = status;
+  };
+
   return {
     allData,
     searchQuery,
@@ -1546,5 +811,6 @@ export const useApplicationStore = defineStore("applicationStore", () => {
     totalPages,
     setPage,
     setSearch,
+    changeStatus,
   };
 });

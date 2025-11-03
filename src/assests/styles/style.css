@@ -63,7 +63,7 @@
 
     th,
     td {
-        border: 1px solid var(--Colors-Border-border-secondary, rgba(233, 234, 235, 1));
+        border: 1px solid rgba(233, 234, 235, 1);
         padding: 0 24px;
     }
 
