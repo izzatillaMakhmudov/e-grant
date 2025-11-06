@@ -103,7 +103,7 @@ export const useApplicationStore = defineStore("applicationStore", () => {
       rejectionReason: "",
     },
     {
-      id: 10,
+      id: 1,
       OrgName:
         "Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti",
       STIR: 201230002,
@@ -114,7 +114,7 @@ export const useApplicationStore = defineStore("applicationStore", () => {
       rejectionReason: "",
     },
     {
-      id: 11,
+      id: 1,
       OrgName:
         "Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti",
       STIR: 201230002,
@@ -125,7 +125,7 @@ export const useApplicationStore = defineStore("applicationStore", () => {
       rejectionReason: "",
     },
     {
-      id: 12,
+      id: 2,
       OrgName:
         "Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti",
       STIR: 201230002,
@@ -136,7 +136,7 @@ export const useApplicationStore = defineStore("applicationStore", () => {
       rejectionReason: "",
     },
     {
-      id: 13,
+      id: 3,
       OrgName:
         "Muhammad al-Xorazmiy nomidagi Toshkent axborot texnologiyalari universiteti",
       STIR: 201230002,
@@ -762,7 +762,6 @@ export const useApplicationStore = defineStore("applicationStore", () => {
       refreshData: "23.05.2025",
       rejectionReason: "",
     },
-    
   ]);
 
   const searchQuery = ref("");
@@ -796,9 +795,15 @@ export const useApplicationStore = defineStore("applicationStore", () => {
     currentPage.value = 1;
   };
 
-  const changeStatus = (id, status) => {
+  const changeStatus = (id, status, reason) => {
     const app = allData.value.find((a) => a.id === id);
-    if (app) app.Status = status;
+    if (app) {
+      app.Status = status;
+      if (reason) {
+        app.rejectionReason = reason;
+        console.log("reason: ", app.rejectionReason, "id: ", id);
+      }
+    }
   };
 
   return {

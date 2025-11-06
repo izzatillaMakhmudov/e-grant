@@ -18,9 +18,11 @@ const router = createRouter({
     {
       path: "/auth",
       component: AuthLayout,
+      name: "AuthLayout",
     },
     {
       path: "/",
+      name: "MainLayout",
       redirect: "/home",
       component: AdminLayout,
       children: [

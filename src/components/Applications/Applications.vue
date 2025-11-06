@@ -1,3 +1,43 @@
+<script setup>
+import ApplicationIcon from '../Icons/ApplicationIcon.vue';
+import ArrowRight from '../Icons/ArrowRight.vue';
+import FiltrIcon from '../Icons/FiltrIcon.vue';
+import MagnifierIcon from '../Icons/MagnifierIcon.vue';
+import { ref } from 'vue';
+
+import Pagination from '../Pagination.vue';
+
+import { useApplicationStore } from './applicationsStore';
+import XMarIconNoCircle from '../Icons/xMarIconNoCircle.vue';
+const store = useApplicationStore();
+
+const isActive = ref(false)
+const applicatoinId = ref(null);
+const rejentionReason = ref('');
+
+function setPage(page) {
+    if (page >= 1 && page <= store.totalPages) {
+        store.currentPage = page
+    }
+}
+
+function setApproved(id) {
+    store.changeStatus(id, 'Tasdiqlangan');
+}
+
+function setDenied(id, reason) {
+    store.changeStatus(id, 'Rad etilgan', reason);
+    toggleActive();
+    rejentionReason.value = '';
+}
+function toggleActive(id) {
+    isActive.value = !isActive.value
+    console.log(isActive.value);
+    applicatoinId.value = id;
+}
+
+</script>
+
 <template>
     <div class="breadcrumb">
         <p>
@@ -41,47 +81,35 @@
                         <span>{{ data.Status }}</span>
                         <div>
                             <button class="approve" @click="setApproved(data.id)">Tasdiqlash</button>
-                            <button class="deny" @click="toggleActive()">Rad qilish</button>
+                            <button class="deny" @click="toggleActive(data.id)">Rad qilish</button>
                         </div>
                     </td>
                     <td class="text-center">{{ data.refreshData }}</td>
-                    <td class="text-center"></td>
+                    <td class="text-center">{{ data.rejectionReason }}</td>
                 </tr>
             </tbody>
         </table>
 
-        <div :class="['bg', { active: isActive }]">
-            <div class="addOrg">
-                <div class="header_section">
-                    <button @click="toggleActive()">
-                    </button>
-                    <h1>Tashkilot qo'shish</h1>
-                </div>
-                <div class="addOrg_body">
-                    <label for="orgTin">STIR</label>
-                    <input type="text" placeholder="Kiriting" id="orgTin">
-                    <button class="search orgButtonGreenShadow">Izlash</button>
-                    <label for="orgName">Tashkilot nomi</label>
-                    <input type="text" placeholder="" id="orgName">
-                </div>
-            </div>
-        </div>
+
 
         <Pagination :current-page="store.currentPage" :total-pages="store.totalPages" @update:page="setPage"
             @prev="store.setPage(store.currentPage - 1)" @next="store.setPage(store.currentPage + 1)" />
-
-        <!-- <div class="table-footer">
-            <button @click="store.setPage(store.currentPage - 1)" :disabled="store.currentPage === 1" class="card">
-                ‹ Oldingi
-            </button>
-
-            <span> {{ store.currentPage }} / {{ store.totalPages }} </span>
-
-            <button @click="store.setPage(store.currentPage + 1)" :disabled="store.currentPage === store.totalPages"
-                class="card">
-                Keyingi ›
-            </button>
-        </div> -->
+    </div>
+    <div :class="['bg', { active: isActive }]">
+        <div class="addOrg">
+            <div class="header_section">
+                <button @click="toggleActive()">
+                    <XMarIconNoCircle />
+                </button>
+                <h1>Tashkilot qo'shish</h1>
+            </div>
+            <div class="addOrg_body">
+                <label for="orgTin">Sababni kiriting va izohlang</label>
+                <textarea rows="5" type="text" placeholder="Kiritish" id="orgTin" v-model="rejentionReason"></textarea>
+                <button class="search orgButtonGreenShadow"
+                    @click="setDenied(applicatoinId, rejentionReason)">Saqlash</button>
+            </div>
+        </div>
     </div>
 </template>
 
@@ -172,131 +200,99 @@ td {
                 0px 0px 0px 1px rgba(10, 13, 18, 0.18) inset;
         }
     }
+}
 
-    .bg {
-        opacity: 0;
-        pointer-events: none;
-        width: 100%;
-        height: 100vh;
-        background-color: rgba(0, 0, 0, .4);
+.bg {
+    opacity: 0;
+    pointer-events: none;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, .4);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 8;
+    transition: all .9s ease-in-out;
+
+    .addOrg {
+
         position: absolute;
-        top: 0;
-        left: 0;
-        z-index: 8;
+        height: calc(100vh - 40px);
+        top: 20px;
+        right: -600px;
+        width: 559px;
+        background-color: #fff;
+        border-radius: 8px;
+        z-index: 9;
+        padding: 32px;
+        transition: all 0.9s ease-in-out;
+
+
+        .header_section {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            justify-content: flex-start;
+            margin-bottom: 30px;
+
+            button {
+                cursor: pointer;
+                width: 48px;
+                height: 48px;
+                border-radius: 8px;
+                background-color: #000;
+                color: #fff;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+            }
+
+            h1 {
+                font-size: 30px;
+                color: rgba(16, 24, 40, 1);
+                font-weight: 600;
+            }
+        }
+
+        .addOrg_body {
+            button {
+                height: 40px;
+                width: 72px;
+
+
+            }
+
+            textarea {
+                width: 100%;
+                // height: 40px;
+                border: 1px solid rgba(245, 245, 245, 1);
+                box-shadow: 0px 1px 2px 0px rgba(10, 13, 18, 0.05);
+                padding: 10px 14px;
+                border-radius: 8px;
+                margin: 10px 0;
+            }
+
+            h2 {
+                font-weight: 500;
+                font-size: 14px;
+                text-transform: uppercase;
+                // margin-top: 30px;
+                display: block;
+            }
+        }
+    }
+
+    &.active {
+        opacity: 1;
+        pointer-events: auto;
         transition: all .9s ease-in-out;
 
         .addOrg {
 
-            position: absolute;
-            height: calc(100vh - 40px);
-            top: 20px;
-            right: -600px;
-            width: 559px;
-            background-color: #fff;
-            border-radius: 8px;
-            z-index: 9;
-            padding: 32px;
+            right: 20px;
             transition: all 0.9s ease-in-out;
-
-
-            .header_section {
-                display: flex;
-                align-items: center;
-                gap: 15px;
-                justify-content: flex-start;
-                margin-bottom: 30px;
-
-                button {
-                    cursor: pointer;
-                    width: 48px;
-                    height: 48px;
-                    border-radius: 8px;
-                    background-color: #000;
-                    color: #fff;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-
-                }
-
-                h1 {
-                    font-size: 30px;
-                    color: rgba(16, 24, 40, 1);
-                    font-weight: 600;
-                }
-            }
-
-            .addOrg_body {
-                button {
-                    height: 40px;
-                    width: 72px;
-
-
-                }
-
-                input {
-                    width: 100%;
-                    height: 40px;
-                    border: 1px solid rgba(245, 245, 245, 1);
-                    box-shadow: 0px 1px 2px 0px rgba(10, 13, 18, 0.05);
-                    padding: 0px 14px;
-                    border-radius: 8px;
-                    margin: 10px 0;
-                }
-
-                h2 {
-                    font-weight: 500;
-                    font-size: 14px;
-                    text-transform: uppercase;
-                    // margin-top: 30px;
-                    display: block;
-                }
-            }
-        }
-
-        &.active {
-            opacity: 1;
-            pointer-events: auto;
-            transition: all .9s ease-in-out;
-
-            .addOrg {
-
-                right: 20px;
-                transition: all 0.9s ease-in-out;
-            }
         }
     }
-
-
 }
 </style>
-
-<script setup>
-import ApplicationIcon from '../Icons/ApplicationIcon.vue';
-import ArrowRight from '../Icons/ArrowRight.vue';
-import FiltrIcon from '../Icons/FiltrIcon.vue';
-import MagnifierIcon from '../Icons/MagnifierIcon.vue';
-import { ref } from 'vue';
-
-import Pagination from '../Pagination.vue';
-
-import { useApplicationStore } from './applicationsStore';
-const store = useApplicationStore();
-
-const isActive = ref(false)
-
-function setPage(page) {
-    if (page >= 1 && page <= store.totalPages) {
-        store.currentPage = page
-    }
-}
-
-function setApproved(id) {
-    store.changeStatus(id, 'Tasdiqlangan');
-}
-function toggleActive() {
-    isActive.value = !isActive.value
-    console.log(isActive.value);
-}
-
-</script>

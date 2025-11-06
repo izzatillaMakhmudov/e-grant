@@ -29,16 +29,16 @@ const { isSidebarOpen } = storeToRefs(sidebarStore)
     display: grid;
     height: 100vh;
     transition: all .4s ease;
-    
-    .content{
+
+    .content {
         overflow: hidden;
-        grid-column-start: 2;    
+        grid-column-start: 2;
         grid-column-end: 3;
         display: grid;
         grid-template-rows: 72px 1fr;
     }
 
-    main{
+    main {
         background-color: rgba(245, 245, 245, 1);
         padding: 25px;
         overflow: auto;
